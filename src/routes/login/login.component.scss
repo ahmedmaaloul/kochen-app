@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+.login-page{
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.login-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.login-container form{
+    background-color: #EAE9E9;
+    border-radius: 2%;
+    padding: 2%;
+    width: 70%;
+    font-family: 'Inter', sans-serif!important;
+    font-size: 20px!important;
+    box-shadow:  0 0.2rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+.login-container form input,.login-container form button,.login-container form a{
+    font-family: 'Inter', sans-serif!important;
+    font-size: 18px!important;
+}
+.login-welcome-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    flex: 1;
+}
+.login-logo-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    color:#FA450C;
+}
+.login-welcome-text{
+    font-size: 36px;
+    color:#565656;
+    font-weight: 500;
+}
+.login-forget-password-link{
+    text-decoration: none;
+    text-align: center;
+    color:#825A51;
+}
+.login-forget-password-link:hover{
+    color:#c96d59;
+}
+.invalid-feedback{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+}
+.alert-login{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+}

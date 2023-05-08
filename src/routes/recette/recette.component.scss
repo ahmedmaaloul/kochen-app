@@ -1,0 +1,44 @@
+.image img{
+    height: 30rem;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 2.5%;
+}
+.description{
+    text-align: justify;
+}
+.steps{
+    background-color: #f4f4f4;
+    box-shadow:  0 0.1rem 0.05rem 0.05rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+.steps h4{
+    font-family: 'Inter', sans-serif!important;
+}
+.comment-section{
+    background-color: #f4f4f4;
+    box-shadow:  0 0.1rem 0.05rem 0.05rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+.comment-section h4{
+    font-family: 'Inter', sans-serif!important;
+}
+.comments{
+    margin-bottom: 0.5rem;
+}
+.info-comments{
+    text-align: center;
+}
+.body-recipe{
+    background-color: #f4f4f4;
+    box-shadow:  0 0.1rem 0.05rem 0.05rem rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+}
+.body-recipe h5{
+    font-family: 'Inter', sans-serif!important;
+}
+.header h4,.body .title h1{
+    font-family: 'Inter', sans-serif!important;
+}

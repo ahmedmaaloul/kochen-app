@@ -1,0 +1,25 @@
+.unknown-page{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.general-header{
+    background-color: #FA450C;
+    height: 20vh;
+}
+.logo-title-general{
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color:#fbccbd;
+}
+.image-message-general{
+    flex:1;
+    height:80vh;
+    overflow: hidden;
+}
+.image-message-general img{
+    object-fit:contain;
+    width: 100%;
+    height: 100%;
+}
